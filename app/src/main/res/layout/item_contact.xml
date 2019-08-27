@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--item toere korte ae xml ta use kora hoy ,, akhane img , phone number , name sob tuere kora hoy-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/item_contact_id">
+    <!--pic join kora hoy -->
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/img_contact"/>
+    <!--name and number join kora hoy -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Contuct Name"
+            android:id="@+id/name_contact"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone number"
+            android:id="@+id/phone_contact"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+    <!--phone er icon join kora hoy -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_local"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
